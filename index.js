@@ -2,7 +2,7 @@ const port = process.env.PORT || 8080;
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send('Hello emy, OCP Exam ! by Vikash, by emy,.......,today,oct'))
+app.get('/', (req, res) => res.send('Hello emy, OCP Exam ! by Vikash, by emy,.......,today,oct,nov'))
 
 
 app.get('/readiness', (req, res) => res.send('Ready !!'))
